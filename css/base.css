@@ -1,0 +1,121 @@
+
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.sidebar .logo {
+  padding: 18px 0px;
+  margin: 0 20px;
+}
+ .logo {
+  text-transform: uppercase;
+  padding: 4px 0px;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.sidebar .nav li > a{
+  margin: 25px 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  opacity: .7;
+}
+.sidebar .nav li:hover > a{
+  opacity: 1;
+}
+.sidebar .nav li.active > a {
+  color: #7A9E9F;
+  opacity: 1;
+}
+
+
+
+.logo{
+  border-bottom: 1px solid rgba(102, 97, 91, 0.3);
+ 
+}
+
+.simple-text{
+  color:black;
+  font-size:20px;
+}
+
+.main-panel {
+  background-color: #f4f3ef;
+  position: relative;
+  z-index: 2;
+  float: right;
+  width: calc(100% - 260px);
+  min-height: 100%;
+}
+.main-panel > .content {
+  padding: 30px 15px;
+  min-height: calc(100% - 123px);
+  
+}
+
+.main-panel .navbar {
+  margin-bottom: 0;
+}
+.table thead tr > th,
+.table thead tr > td,
+.table tbody tr > th,
+.table tbody tr > td,
+.table tfoot tr > th,
+.table tfoot tr > td {
+  border-top: 1px solid #CCC5B9;
+  padding-left:10px;
+  padding-top:5px;
+}
+ .navbar-brand {
+  font-weight: 600;
+  margin: 5px 0px;
+  padding: 20px 15px;
+  font-size: 20px;
+}
+
+
+.card {
+  border-radius: 6px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #FFFFFF;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+
+.card .content {
+  padding: 15px 15px 10px 15px;
+}
+.card .header {
+  padding: 20px 20px 0;
+}
+
+.category  {
+  font-size: 14px;
+  font-weight: 400;
+  color: #9A9A9A;
+  margin-bottom: 0px;
+}
+
+
+.table-striped tbody > tr:nth-of-type(2n+1) {
+  background-color: #fff;
+}
+.table-striped tbody > tr:nth-of-type(2n) {
+background-color: pink;
+}
+
+
+
+
+
